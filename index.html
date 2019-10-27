@@ -1,49 +1,421 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--
+Tinker CSS Template
+https://templatemo.com/tm-506-tinker
+-->
+        <title>Student and Developer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
 <body>
-    <header id="main-header">
+    <div class="header">
         <div class="container">
-            <h1>My Website</h1>
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!--/.navbar-header-->
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="scroll-top">Home</a></li>
+                        <li><a href="#" class="scroll-link" data-id="resume">Resume</a></li>
+                        <li><a href="#" class="scroll-link" data-id="experience">Experience</a></li>
+                        <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
+                        <li><a href="#" class="scroll-link" data-id="photography">Photography</a></li>
+                        <li><a href="#" class="scroll-link" data-id="hobbies">Hobbies</a></li>
+                        <li><a href="#" class="scroll-link" data-id="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!--/.navbar-collapse-->
+            </nav>
+            <!--/.navbar-->
         </div>
-    </header>
+        <!--/.container-->
+    </div>
+    <!--/.header-->
 
-    <nav id="navbar">
+
+    <div class="parallax-content baner-content" id="home">
         <div class="container">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div class="text-content">
+                <h2><span>JESUS LARES</span></h2>
+                <p>Explorer <span>&#8286;</span> Creator</p>
+            </div>
         </div>
-    </nav>
+    </div>
 
-    <section id="showcase">
+    <section id="about" class="page-section">
         <div class="container">
-            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, ab.
-            </h1>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <p>About Me:</p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a>MIT Sophomore</a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a>Computer Science</a>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <a>Physics</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <div class="container">
-        <section id="main">
-            <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid optio, maiores quibusdam sint omnis quam iure illo est dignissimos, ab dolorum ipsam nesciunt, rem harum sapiente soluta. Inventore aperiam perspiciatis veniam sapiente adipisci ratione saepe? Facere vel voluptate sed nihil, possimus sint reiciendis consequatur explicabo odio modi. Vitae, reprehenderit sunt!</p>
-        </section>
-        <aside id="sidebar">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid optio, maiores quibusdam sint omnis quam iure illo est dignissimos, ab dolorum ipsam nesciunt, rem harum sapiente soluta.</p>
-        </aside>
+    <section id="experience" class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="img/educationalai.png" alt="">
+                        </div>
+                        <h4>Education</h4>
+                        <div class="line-dec"></div>
+                        <p>Curabitur non risus fringilla libero accumsan molestie et quis justo. Cras aliquam tempor sem, vestibulum facilisis dui. Mauris malesuada porta.</p>
+                        <div class="primary-blue-button">
+                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="img/aiwhite.png" alt="">
+                        </div>
+                        <h4>Northrop Grumman Machine Learning</h4>
+                        <div class="line-dec"></div>
+                        <p>Do NOT re-distribute our template on any template download website. However, you can feel free to use this template for your commercial or non-commercial sites.</p>
+                        <div class="primary-blue-button">
+                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="img/consulting.png" alt="">
+                        </div>
+                        <h4>MIT Consulting Group</h4>
+                        <div class="line-dec"></div>
+                        <p>Feel free to talk to us on our Facebook page if you have any kind of question or suggestion. Sed tempor mi quis rhoncus convallis.</p>
+                        <div class="primary-blue-button">
+                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <div class="icon">
+                            <img src="img/atomic.png" alt="">
+                        </div>
+                        <h4>MIT Computational Reactor Physics Group</h4>
+                        <div class="line-dec"></div>
+                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent viverra, nunc et mollis fermentum.</p>
+                        <div class="primary-blue-button">
+                            <a href="#" class="scroll-link" data-id="portfolio">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="tabs-content" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="wrapper">
+                    <div class="col-md-4">
+                        <div class="section-heading">
+                            <h4>Portfolio</h4>
+                            <div class="line-dec"></div>
+                            <p>Collection of all my projects.</p>
+                            <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                                <li><a href="#tab1" class="active">Quantum Thermodynamics</a></li>
+                                <li><a href="#tab2">Machine Learning Projects</a></li>
+                                <li><a href="#tab3">Physics Simulations</a></li>
+                                <li><a href="#tab4">Miscellaneous Visuals</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <section id="first-tab-group" class="tabgroup">
+                            <div id="tab1">
+                                <img src="img/blog_item_01.jpg" alt="">
+                                <div class="text-content">
+                                    <h4>Nulla eget convallis augue</h4>
+                                    <span><a href="#">Digital Marketing</a> / <a href="#">Honey</a> / <a href="#">21 September 2020</a></span>
+                                    <p>Donec interdum scelerisque auctor. Nulla id lorem auctor, bibendum lectus elementum, porta felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                </div>
+                            </div>
+                            <div id="tab2">
+                                <img src="img/blog_item_02.jpg" alt="">
+                                <div class="text-content">
+                                    <h4>Quisque ultricies maximus</h4>
+                                    <span><a href="#">Branding</a> / <a href="#">David</a> / <a href="#">24 August 2020</a></span>
+                                    <p>Etiam fringilla posuere pretium. Maecenas tempor pellentesque elit in dapibus. Curabitur viverra urna sem, ut sollicitudin sem congue vel. Donec fringilla augue in justo molestie fermentum quis ac mi.</p>
+                                </div>
+                            </div>
+                            <div id="tab3">
+                                <img src="img/blog_item_03.jpg" alt="">
+                                <div class="text-content">
+                                    <h4>Sed vel elit et lorem</h4>
+                                    <span><a href="#">Web Design</a> / <a href="#">William</a> / <a href="#">18 July 2020</a></span>
+                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id ipsum porta, dictum sem sed, bibendum quam. Maecenas mattis risus eget orci rhoncus.</p>
+                                </div>
+                            </div>
+                            <div id="tab4">
+                                <img src="img/blog_item_04.jpg" alt="">
+                                <div class="text-content">
+                                    <h4>Vivamus purus neque</h4>
+                                    <span><a href="#">E-Commerce</a> / <a href="#">George</a> / <a href="#">14 July 2020</a></span>
+                                    <p>Aliquam erat volutpat. Nulla at nunc nec ante rutrum congue id in diam. Nulla at lectus non turpis placerat volutpat lacinia ut mi. Quisque ultricies maximus justo a blandit. Donec sit amet commodo arcu. Sed sit amet iaculis mi, vel fermentum nisi. Morbi dui enim, vestibulum non accumsan ac, tempor non nisl.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <footer id="main-footer">
-        <p>Copyright &copy; 2019 My Website</p>
+    <section id="photography">
+        <div class="content-wrapper">
+            <div class="inner-container container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="section-heading">
+                            <h4>My Gallery</h4>
+                            <div class="line-dec"></div>
+                            <p>A photobook from my travels and life! I love nature and storytelling.</p>
+                            <div class="filter-categories">
+                                <ul class="project-filter">
+                                    <li class="filter" data-filter="all"><span>Show All</span></li>
+                                    <li class="filter" data-filter="branding"><span>Branding</span></li>
+                                    <li class="filter" data-filter="graphic"><span>Graphic</span></li>
+                                    <li class="filter" data-filter="nature"><span>Nature</span></li>
+                                    <li class="filter" data-filter="animation"><span>Animation</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="projects-holder-3">
+                            <div class="projects-holder">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 project-item mix nature">
+                                      <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/1800rockymountaingoats.JPG" data-lightbox="image-1"><img src="img/385rockymountaingoats.JPG"></a>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix animation">
+                                      <div class="thumb">
+                                        <div class="image">
+                                                <a href="img/portfolio_big_item_02.jpg" data-lightbox="image-1"><img src="img/portfolio_item_02.jpg"></a>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix branding">
+                                      <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/portfolio_big_item_03.jpg" data-lightbox="image-1"><img src="img/portfolio_item_03.jpg"></a>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix graphic nature">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/portfolio_big_item_04.jpg" data-lightbox="image-1"><img src="img/portfolio_item_04.jpg"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix branding">
+                                      <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/portfolio_big_item_05.jpg" data-lightbox="image-1"><img src="img/portfolio_item_05.jpg"></a>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix graphic animation">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="img/portfolio_big_item_06.jpg" data-lightbox="image-1"><img src="img/portfolio_item_06.jpg"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div id="owl-testimonials" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <p>“ Quisque ullamcorper odio a nisl lacinia dictum. Vestibulum malesuada ipsum in turpis finibus, ut sagittis erat scelerisque. Curabitur non risus fringilla libero accumsan molestie et quis justo. ”</p>
+                                <h4>George Rich</h4>
+                                <span>Marketing Head</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <p>“ Suspendisse magna mauris, convallis vel finibus eget, lobortis dictum neque. Nam tincidunt metus nec eros dignissim consectetur. ”</p>
+                                <h4>John Henry</h4>
+                                <span>Art Director</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <p>“ Aenean semper aliquam est ut maximus. Fusce id diam eget orci lobortis ultricies at ac velit. Curabitur laoreet massa et fringilla sagittis. ”</p>
+                                <h4>Danny Cute</h4>
+                                <span>Founder</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-item">
+                                <p>“ Maecenas eu odio pharetra, elementum lorem eget, efficitur erat. Duis eget justo non nisi iaculis vestibulum. Aliquam erat volutpat. ”</p>
+                                <h4>Richard Beal</h4>
+                                <span>Senior Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="map">
+    	<!-- How to change your own map point
+            1. Go to Google Maps
+            2. Click on your location point
+            3. Click "Share" and choose "Embed map" tab
+            4. Copy only URL and paste it within the src="" field below
+        -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.1756884048896!2d-71.09635404879766!3d42.360094942989576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370aaf51a6a87%3A0xd0e08ea5b308203c!2sMassachusetts%20Institute%20of%20Technology!5e0!3m2!1sen!2sus!4v1572117494651!5m2!1sen!2sus" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        <div class="container", id="contact">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="logo">
+                        <a class="logo-ft scroll-top" href="#">JESUS LARES</a>
+                        <p>Thank you for visiting my personal site. &ii; &#9825; &#871;</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="location">
+                        <h4>Location</h4>
+                        <ul>
+                            <li>77 Massachusetts Avenue, <br>Cambridge 02139</li>
+                            <li>99 Bay State Road, <br>Boston 02215</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="contact-info">
+                        <h4>More Info</h4>
+                        <ul>
+                            <li><em>Phone</em>: 561-294-1685</li>
+                            <li><em>Email</em>: jelares@mit.edu</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="connect-us">
+                        <h4>Get Social with Me</h4>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/jesus-lares/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100011236083036"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/siderealpers"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://github.com/sidereal"><i class="fa fa-github"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        // navigation click actions 
+        $('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 50;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+    </script>
 </body>
 </html>
