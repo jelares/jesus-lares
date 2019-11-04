@@ -268,6 +268,18 @@ bootstrap.min.css:5
 	letter-spacing: 0.5px;
 }
 
+#about .container  p span{
+	color: gray!important;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-shadow: none;
+	line-height: 20px;
+	padding: 0px;
+	letter-spacing: 0.5px;
+}
+
 #about .container a {
 	color: #000000!important;
 	text-decoration: none;
@@ -294,14 +306,10 @@ bootstrap.min.css:5
 
 #experience {
 	padding: 150px 0px;
-	background-image: url(../img/galaxy.jpeg);
+	background-image: url(../img/highresmilkyway.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-}
-
-#experience .service-item {
-	text-align: center;
 }
 
 #experience .service-item .icon {
