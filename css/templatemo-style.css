@@ -162,13 +162,13 @@ p {
 }
 .navbar-inverse .navbar-toggle {
 	margin-top: 22px;
-    border-color: #f7c552;
-    background-color: #f7c552;
+    border-color: black;
+    background-color: black;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: #f7c552;
+	background-color: black;
 }
-bootstrap.min.css:5
+
 .navbar-toggle {
     position: relative;
     float: right;
@@ -181,6 +181,7 @@ bootstrap.min.css:5
     border: 1px solid transparent;
     border-radius: 4px;
 }
+
 @media (min-width: 768px) {
     .header .navbar-brand {
         padding-left: 0;
@@ -212,7 +213,7 @@ bootstrap.min.css:5
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../images/desertsunset.JPG);
+  	background-image: url(../img/desertsunset.JPG);
   	vertical-align: middle;
 }
 
@@ -421,7 +422,7 @@ bootstrap.min.css:5
 
 
 #testimonial {
-	background-color: #33c1cf;
+	background-color: black;
 	text-align: center;
 	padding: 100px 0px;
 }
@@ -838,7 +839,6 @@ footer .connect-us ul li a:hover {
 		padding: 0px 15%;
 	}
 
-
 	#experience .service-item {
 		margin-bottom: 80px;
 	} 
@@ -847,7 +847,7 @@ footer .connect-us ul li a:hover {
 		text-align: center;
 		padding-top: 100px;
 		padding-bottom: 100px;
-		background-color: #33c1cf;
+		background-color: black;
 		height: 505px;
 		margin-left: -15px;
 		padding-left: 0vh;
@@ -944,6 +944,25 @@ footer .connect-us ul li a:hover {
 		border-top: none;
 		margin-top: 15px;
 		background-color: rgba(250, 250, 250, 0.95);
+	}
+
+	#experience {
+		width: 100%;
+        float:none;
+	}
+
+	#portfolio {
+		width: 100%;
+        float:none;
+	}
+
+	#photography {
+		width: 100%;
+        float:none;
+	}
+	#testimonial {
+		width: 100%;
+        float:none;
 	}
 
 	.navbar-nav {

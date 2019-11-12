@@ -1,0 +1,64 @@
+body {
+	margin: 0px;
+}
+
+.slide {
+	width: 100vw;
+	height: 100vh;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	width: 400vw;
+	transform: rotate(90deg) translateY(-100vh);
+	transform-origin: top left;
+}
+
+.one {
+	background: rgb(0, 225, 255) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.two {
+	background: rgb(21, 255, 0) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.three {
+	background: rgb(255, 0, 191) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.four {
+	background: rgb(251, 255, 0) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.outer-wrapper {
+	width: 100vh;
+	height: 100vw;
+	transform: rotate(-90deg) translateX(-100vh);
+	transform-origin: top left;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: absolute;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+::-webkit-scrollbar{
+	display: none;
+}
