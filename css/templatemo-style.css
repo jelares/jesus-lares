@@ -111,7 +111,7 @@ p {
 }
 
 .navbar-nav>li {
-	margin-left: 45px;
+	width: 100%;
 }
 
 .header.active .navbar-nav>li>a {
@@ -182,27 +182,6 @@ p {
     border-radius: 4px;
 }
 
-@media (min-width: 768px) {
-    .header .navbar-brand {
-        padding-left: 0;
-    }
-    .navbar-nav {
-        float: right;
-    }
-}
-@media (max-width: 480px) {
-    .page-section h1 {
-        font-size: 3em;
-    }
-    .page-section h2 {
-        font-size: 2em;
-    }
-    .page-section p {
-        font-size: 1em;
-        margin: 0 0 20px;
-    }
-}
-
 .parallax-content {
   width: 100%;
   min-height: 100vh;
@@ -257,7 +236,30 @@ p {
 	margin-top: 25px;
 }
 
-#about .container p {
+#about {
+	color: #fff;
+	height: 25vh;
+}
+
+
+#about .row{
+	margin: auto;
+	height: 25vh;
+	position: relative;
+	display: flex;
+}
+
+#about .row .aboutbox{
+	margin: auto;
+	float: left;
+	width: 100%;
+}
+
+#about .aboutbox .aboutBoxLink {
+	text-align: center;
+}
+
+#about .row .aboutbox p {
 	color: #000000!important;
 	text-decoration: none;
 	font-size: 20px;
@@ -266,10 +268,11 @@ p {
 	text-shadow: none;
 	line-height: 20px;
 	padding: 0px;
+	text-align: center;
 	letter-spacing: 0.5px;
 }
 
-#about .container  p span{
+#about .row .aboutbox p span{
 	color: gray!important;
 	text-decoration: none;
 	font-size: 14px;
@@ -278,10 +281,11 @@ p {
 	text-shadow: none;
 	line-height: 20px;
 	padding: 0px;
+	text-align: center;
 	letter-spacing: 0.5px;
 }
 
-#about .container a {
+#about .row .aboutbox a {
 	color: #000000!important;
 	text-decoration: none;
 	font-size: 20px;
@@ -293,7 +297,7 @@ p {
 	letter-spacing: 0.5px;
 }
 
-#about .container a:hover {
+#about .row .aboutbox a:hover {
 	color: #808080!important;
 	text-decoration: none;
 	font-size: 20px;
@@ -309,8 +313,11 @@ p {
 	padding: 150px 0px;
 	background-image: url(../img/highresmilkyway.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
 	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #experience .service-item .icon {
@@ -380,10 +387,6 @@ p {
 
 .filter-categories ul li.active span {
   color: #f7c552;
-}
-
-#portoflio .page-section {
-	padding: 0px;
 }
 
 #photography .section-heading {
@@ -474,8 +477,11 @@ p {
 #portfolio {
 	background-image: url(../img/galaxymountaindark.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
 	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #portfolio .section-heading {
@@ -839,6 +845,13 @@ footer .connect-us ul li a:hover {
 		padding: 0px 15%;
 	}
 
+	.navbar-nav{
+		margin: auto;
+	}
+	.navbar-nav>li{
+		margin-left: 30px;
+	}
+
 	#experience .service-item {
 		margin-bottom: 80px;
 	} 
@@ -986,6 +999,23 @@ footer .connect-us ul li a:hover {
 		color: #343434!important;
 	}
 
+	.header .navbar-brand {
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .page-section h1 {
+        font-size: 3em;
+    }
+    .page-section h2 {
+        font-size: 2em;
+    }
+    .page-section p {
+        font-size: 1em;
+        margin: 0 0 20px;
+    }
 }
 
 @media (max-width: 385px){
