@@ -24,7 +24,9 @@ https://templatemo.com/tm-506-tinker
         <link rel="stylesheet" href="css/templatemo-style.css">
         <link rel="stylesheet" href="css/lightbox.css">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/vendor/parallax.min.js"></script>
     </head>
 
 <body>
@@ -87,7 +89,7 @@ https://templatemo.com/tm-506-tinker
         </div>
     </section>
 
-    <section id="experience" class="page-section">
+    <section id="experience" class="page-section" data-parallax="scroll" data-image-src="img/desertmountaintall.JPG">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -146,7 +148,9 @@ https://templatemo.com/tm-506-tinker
         </div>
     </section>
 
-    <div class="tabs-content" id="portfolio">
+    <div id="seperator"></div>
+
+    <div class="tabs-content" id="portfolio" data-parallax="scroll" data-image-src="img/rockymountaintrees.JPG">
         <div class="container">
             <div class="row">
                 <div class="wrapper">
@@ -204,7 +208,9 @@ https://templatemo.com/tm-506-tinker
         </div>
     </div>
 
-    <section id="photography">
+    <div id="seperator"></div>
+
+    <section id="photography" data-parallax="scroll" data-image-src="img/rockiesgoatsfrolick.JPG">
         <div class="content-wrapper">
             <div class="inner-container container">
                 <div class="row">
@@ -219,7 +225,6 @@ https://templatemo.com/tm-506-tinker
                                     <li class="filter" data-filter="places"><span>Places</span></li>
                                     <li class="filter" data-filter="people"><span>People</span></li>
                                     <li class="filter" data-filter="nature"><span>Nature</span></li>
-                                    <li class="filter" data-filter="phenomena"><span>Phenomena</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -229,45 +234,66 @@ https://templatemo.com/tm-506-tinker
                             <div class="projects-holder">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6 project-item mix nature">
-                                      <div class="thumb">
-                                            <div class="image">
-                                                <a href="toedit/rockymountaingoats.JPG" data-lightbox="image-1"><img src="toedit/300rockymountaingoats.JPG"></a>
-                                            </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix places phenomena">
-                                      <div class="thumb">
-                                        <div class="image">
-                                                <a href="toedit/MITSunset.JPG" data-lightbox="image-1"><img src="toedit/300MITSunset.JPG"></a>
-                                            </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix people">
-                                      <div class="thumb">
-                                            <div class="image">
-                                                <a href="toedit/bluehead.JPG" data-lightbox="image-1"><img src="toedit/300bluehead.JPG"></a>
-                                            </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix nature phenomena">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="toedit/snowyrockies.JPG" data-lightbox="image-1"><img src="toedit/300snowyrockies.JPG"></a>
+                                                <a href="toedit/rockymountaingoats.JPG" data-lightbox="image-1"><img class = "center-fit" src="toedit/300rockymountaingoats.JPG"></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix nature phenomena">
-                                      <div class="thumb">
-                                            <div class="image">
-                                                <a href="toedit/shenansunset.JPG" data-lightbox="image-1"><img src="toedit/300shenansunset.JPG"></a>
-                                            </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 project-item mix places phenomena">
+                                    <div class="col-md-6 col-sm-6 project-item mix nature">
                                         <div class="thumb">
                                             <div class="image">
-                                                <a href="toedit/acadialighthouse.JPG" data-lightbox="image-1"><img src="toedit/300acadialighthouse.JPG"></a>
+                                                <a href="toedit/rockymountaingoats.JPG" data-lightbox="image-1"><img class = "center-fit" src="toedit/300rockymountaingoats.JPG"></a>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix nature">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="toedit/rockymountaingoats.JPG" data-lightbox="image-1"><img class = "center-fit" src="toedit/300rockymountaingoats.JPG"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix nature">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="toedit/rockymountaingoats.JPG" data-lightbox="image-1"><img class = "center-fit" src="toedit/300rockymountaingoats.JPG"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix places">
+                                        <div class="thumb">
+                                        <div class="image">
+                                                <a href="toedit/MITSunset.JPG" data-lightbox="image-1"><img class = "center-fit" src="toedit/300MITSunset.JPG"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix people">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="toedit/bluehead.JPG" data-lightbox="image-1"><img class = "center-fit" src="toedit/300bluehead.JPG"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix nature">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="toedit/snowyrockies.JPG" data-lightbox="image-1"><img class = "center-fit" src="toedit/300snowyrockies.JPG"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix nature">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="toedit/shenansunset.JPG" data-lightbox="image-1"><img class = "center-fit" src="toedit/300shenansunset.JPG"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 project-item mix places">
+                                        <div class="thumb">
+                                            <div class="image">
+                                                <a href="toedit/acadialighthouse.JPG" data-lightbox="image-1"><img class = "center-fit" src="toedit/300acadialighthouse.JPG"></a>
+                                                </div>
                                         </div>
                                     </div>
                                 </div>
@@ -276,8 +302,10 @@ https://templatemo.com/tm-506-tinker
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </section>
+
+    <div id="seperator"></div>
 
     <section id="testimonial">
         <div class="container">
