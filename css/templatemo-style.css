@@ -185,6 +185,7 @@ p {
 .parallax-content {
   width: 100%;
   min-height: 100vh;
+  background-image: url(../img/desertsunset.JPG);
   background-size: cover;
 }
 
@@ -192,7 +193,6 @@ p {
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/desertsunset.JPG);
   	vertical-align: middle;
 }
 
@@ -238,7 +238,7 @@ p {
 
 #seperator {
 	color: #fff;
-	min-height: 2.5vh;
+	height: 2.5vh;
 }
 
 #about {
@@ -314,9 +314,30 @@ p {
 	letter-spacing: 0.5px;
 }
 
+.parallax-content2 {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(../img/desertmountaintall.JPG);
+	background-size: cover;
+}
+
+.parallax-content3 {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(../img/desertmountaintall.JPG);
+	background-size: cover;
+}
+
+.parallax-content4 {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(../img/rockiesgoatsfrolick.JPG);
+	background-size: cover;
+}
+
 #experience {
 	min-height: 100vh;
-	padding-top: 35vh;
+	padding-top: 15vh;
 }
 
 #experience .service-item .icon {
@@ -460,7 +481,7 @@ p {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: rgba(0, 0, 0, 0.5);
-	height: 582px;
+	height: 75vh;
 	margin-left: -100vh;
 	padding-left: 100vh;
 	overflow: hidden!important;
@@ -548,17 +569,39 @@ p {
 #portfolio {
 	min-height: 100vh;
 	padding-top: 25vh;
+	padding-bottom: 25vh;
 }
 
 #portfolio .section-heading {
 	text-align: left;
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: rgba(0, 0, 0, 0.5);
-	height: 582px;
-	margin-left: -100vh;
-	padding-left: 100vh;
+    padding-top: 20px;
+	padding-bottom: 45px;
+	padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 75vh;
 	overflow: hidden!important;
+	width: auto;
+	height: auto;
+}
+
+#portfolio .col-md-4 {
+	margin: 0;
+    height: auto;
+    width: auto;
+}
+
+#portfolio .container{
+	padding: 0;
+	margin: 0;
+}
+
+#portfolio a{
+	font-size: 8pt;
+}
+
+#portfolio .tabs{
+	margin-top: 10%;
+	padding-right: 10%;
 }
 
 #portfolio .section-heading h4 {
@@ -961,6 +1004,7 @@ footer .connect-us ul li a:hover {
 		margin-right: -15px;
 		padding-right: 0vh;
 		overflow: hidden!important;
+		height: auto;
 	}
 
 	#portfolio .section-heading .line-dec {
@@ -969,6 +1013,31 @@ footer .connect-us ul li a:hover {
 
 	#portfolio .section-heading p {
 		padding: 0px 30px;
+	}
+
+	#portfolio .container {
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#portfolio .row {
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+
+	#portfolio .col-md-4 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		height: auto;
+		width: auto;
+	}
+
+	#portfolio a {
+		font-size: 12pt;
 	}
 
 	.tabs {

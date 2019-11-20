@@ -27,6 +27,33 @@ jQuery(document).ready(function($) {
         });
 
 
+        var top_header2 = $('.parallax-content2');
+        top_header2.css({'background-position':'center center'}); // better use CSS
+
+        $(window).scroll(function () {
+        var st = $(this).scrollTop() - 1.25*window.innerHeight
+        top_header2.css({'background-position':'center calc(50% + '+(st*.5)+'px)'});
+        });
+
+
+        var top_header3 = $('.parallax-content3');
+        top_header3.css({'background-position':'center center'}); // better use CSS
+
+        $(window).scroll(function () {
+        var st = $(this).scrollTop() - 2.275*window.innerHeight
+        top_header3.css({'background-position':'center calc(50% + '+(st*.5)+'px)'});
+        });
+
+
+        var top_header4 = $('.parallax-content4');
+        top_header4.css({'background-position':'center center'}); // better use CSS
+
+        $(window).scroll(function () {
+        var st = $(this).scrollTop() - 3.3*window.innerHeight
+        top_header4.css({'background-position':'center calc(50% + '+(st*.5)+'px)'});
+        });
+
+
         $('.counter').each(function() {
           var $this = $(this),
               countTo = $this.attr('data-count');
