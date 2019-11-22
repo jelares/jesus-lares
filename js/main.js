@@ -17,6 +17,18 @@ jQuery(document).ready(function($) {
           
       });
 
+        function getPosition(element) {
+          var xPosition = 0;
+          var yPosition = 0;
+      
+          while(element) {
+              xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
+              yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+              element = element.offsetParent;
+          }
+      
+          return { 'x': xPosition, 'y': yPosition };
+        }
 
         var top_header = $('.parallax-content');
         top_header.css({'background-position':'center center'}); // better use CSS
@@ -28,28 +40,41 @@ jQuery(document).ready(function($) {
 
 
         var top_header2 = $('.parallax-content2');
+        var tpheader2 = document.querySelector('.parallax-content2')
+
         top_header2.css({'background-position':'center center'}); // better use CSS
 
         $(window).scroll(function () {
-        var st = $(this).scrollTop() - 1.25*window.innerHeight
+        var st = $(this).scrollTop() - getPosition(tpheader2)['y'];
         top_header2.css({'background-position':'center calc(50% + '+(st*.5)+'px)'});
         });
 
 
         var top_header3 = $('.parallax-content3');
+        var tpheader3 = document.querySelector('.parallax-content3')
+
         top_header3.css({'background-position':'center center'}); // better use CSS
 
         $(window).scroll(function () {
-        var st = $(this).scrollTop() - 2.275*window.innerHeight
+        var st = $(this).scrollTop() - getPosition(tpheader3)['y'];
         top_header3.css({'background-position':'center calc(50% + '+(st*.5)+'px)'});
         });
 
 
         var top_header4 = $('.parallax-content4');
+        var tpheader4 = document.querySelector('.parallax-content4')
+
         top_header4.css({'background-position':'center center'}); // better use CSS
 
         $(window).scroll(function () {
-        var st = $(this).scrollTop() - 3.3*window.innerHeight
+
+        // console.log(tpheader4);
+
+        var st = $(this).scrollTop() - getPosition(tpheader4)['y'];
+
+        // console.log($(this).scrollTop());
+        // console.log(getPosition(tpheader4)['y']);
+
         top_header4.css({'background-position':'center calc(50% + '+(st*.5)+'px)'});
         });
 

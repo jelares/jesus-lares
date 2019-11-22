@@ -27,8 +27,7 @@ p {
 	line-height: 24px;
 }
 
-.
--content {
+.content {
   width: 100%;
   min-height: 100vh;
   background-size: cover;
@@ -410,57 +409,36 @@ p {
 .filter-categories ul li.active span {
   color: #f7c552;
 }
-.center-fit{
-	max-width: 100%;
-    max-height: 25vh;
-}
-#photography .inner-container.container{
-	margin: 0;
-	padding: 0;
-	width: 100vw;
-	height: 100vh;
-}
 
-#photography .row{
-	margin:0;
-	padding:0;
-}
-#photography .content-wrapper{
-	width: 100vw;
-	height: 100vh;
-	padding: 0px 0px;
-}
-
-#photography .image {
-	width: 25vw;
-	height: 25vh;
-	margin: 0px 0px;
-}
-#photography .thumb {
-	width: 25vw;
-	height: 25vh;
-	margin: 0px 0px;
-}
-#photography .col-md-4{
-	margin:0;
-	padding-left: 2vw;
+#photography {
+	min-height: 100vh;
 	padding-top: 25vh;
-	height: 50vh;
-	width: 20vw;
+	padding-bottom: 25vh;
 }
-#photography .col-md-8{
-	margin:0;
-	padding-top: 12.5vh;
-	width: 75vw;
-	height:75vh;
+
+#photography .section-heading {
+	text-align: left;
+    padding-top: 20px;
+	padding-bottom: 45px;
+	padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 75vh;
+	overflow: hidden!important;
+	width: auto;
+	height: auto;
 }
-#photography .projects-holder{
-	margin:0;
-	padding:0;
+
+#photography .col-md-4 {
+	margin: 0;
+    height: auto;
+    width: auto;
 }
-#photography{
-	height: 100vh;
+
+#photography .container{
+	padding: 0;
+	margin: 0;
 }
+
 #photography .photobook {
 	display: table;   /* Allow the centering to work */
 	width: 100%;
@@ -476,22 +454,18 @@ p {
 	display: inline;
 }
 
-#photography .section-heading {
-	text-align: left;
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: rgba(0, 0, 0, 0.5);
-	height: 75vh;
-	margin-left: -100vh;
-	padding-left: 100vh;
-	overflow: hidden!important;
+#photography .projects-holder {
+	width: 532px;
+	height: 400px;
+	padding: 0px;
+	margin: 0px;
 }
 
 #photography .project-item {
-	margin: 0px 0px;
-	padding: 0px 0px;
-	width: 25vh;
-	height: 25vh;
+	width: 133px;
+	height: 100px;
+	padding: 0px;
+	margin: 0px
 }
 
 #photography .section-heading h4 {
@@ -661,10 +635,7 @@ p {
 .tabs .active {
   color: #f7c552;
 }
-#first-tab-group {
-	margin-top: 30px;
-	margin-bottom: 15px;
-}
+
 .tabgroup .text-content	 {
   background-color: #fff;
   color: #fff;
@@ -948,6 +919,22 @@ footer .connect-us ul li a:hover {
 
 /* RESPONSIVE */
 
+@media (min-width: 1100px){
+	#photography .projects-holder {
+		width: 800px;
+		height: 600px;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	#photography .project-item {
+		width: 200px;
+		height: 150px;
+		padding: 0px;
+		margin: 0px
+	}
+}
+
 @media (max-width: 991px){
 
 	.baner-content .text-content p {
@@ -983,11 +970,6 @@ footer .connect-us ul li a:hover {
 
 	#photography .section-heading p {
 		padding: 0px 20px;
-	}
-
-	.projects-holder {
-		text-align: center;
-		padding: 15px 0px;
 	}
 
 	#photography .project-item {
