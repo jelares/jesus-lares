@@ -416,6 +416,20 @@ p {
 	padding-bottom: 25vh;
 }
 
+#photography .projects-holder {
+	width: 1068px;
+	height: 800px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#photography .project-item {
+	width: 267px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px
+}
+
 #photography .section-heading {
 	text-align: left;
     padding-top: 20px;
@@ -430,13 +444,30 @@ p {
 
 #photography .col-md-4 {
 	margin: 0;
+	padding-left: 0px;
     height: auto;
-    width: auto;
+	width: auto;
+	float: left;
+}
+
+#photography .row{
+	width: auto;
+	height: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#photography .col-md-8 {
+	margin: 0;
+    height: auto;
+	width: auto;
+	float: left;
 }
 
 #photography .container{
 	padding: 0;
 	margin: 0;
+	width: auto;
+	height: auto;
 }
 
 #photography .photobook {
@@ -452,20 +483,6 @@ p {
 
 .photobook .photobookpics>li {
 	display: inline;
-}
-
-#photography .projects-holder {
-	width: 532px;
-	height: 400px;
-	padding: 0px;
-	margin: 0px;
-}
-
-#photography .project-item {
-	width: 133px;
-	height: 100px;
-	padding: 0px;
-	margin: 0px
 }
 
 #photography .section-heading h4 {
@@ -917,9 +934,7 @@ footer .connect-us ul li a:hover {
 }
 
 
-/* RESPONSIVE */
-
-@media (min-width: 1100px){
+@media (max-width: 1600px){
 	#photography .projects-holder {
 		width: 800px;
 		height: 600px;
@@ -930,6 +945,22 @@ footer .connect-us ul li a:hover {
 	#photography .project-item {
 		width: 200px;
 		height: 150px;
+		padding: 0px;
+		margin: 0px
+	}
+}
+
+@media (max-width: 1200px){
+	#photography .projects-holder {
+		width: 532px;
+		height: 400px;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	#photography .project-item {
+		width: 133px;
+		height: 100px;
 		padding: 0px;
 		margin: 0px
 	}
@@ -952,6 +983,37 @@ footer .connect-us ul li a:hover {
 		margin-bottom: 80px;
 	} 
 
+	#photography .container{
+		width: 750px;
+	}
+
+	#photography .projects-holder {
+		width: 720px;
+		height: 600px;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	#photography .project-item {
+		width: 180px;
+		height: 135px;
+		padding: 0px;
+		margin: 0px
+	}
+
+	#photography .projects-holder{
+		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	#photography .projects-holder-3{
+		float:none;
+		position: relative;
+		height: 600px;
+    	width: 720px;
+	}
+
 	#photography .section-heading {
 		text-align: center;
 		padding-top: 100px;
@@ -962,6 +1024,7 @@ footer .connect-us ul li a:hover {
 		margin-right: -15px;
 		padding-right: 0vh;
 		overflow: hidden!important;
+		height: auto;
 	}
 
 	#photography .section-heading .line-dec {
@@ -969,11 +1032,33 @@ footer .connect-us ul li a:hover {
 	}
 
 	#photography .section-heading p {
-		padding: 0px 20px;
+		padding: 0px 30px;
 	}
 
-	#photography .project-item {
-		margin: 15px 0px;
+	#photography .container {
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#photography .col-md-4 {
+		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		height: auto;
+		width: auto;
+		float: none;
+	}
+
+	#photography .col-md-8 {
+		margin-top: 75px;
+		float: none;
+		padding: 0px;
+
 	}
 
 	#portfolio .section-heading {
@@ -1016,6 +1101,10 @@ footer .connect-us ul li a:hover {
 		padding-left: 15px;
 		height: auto;
 		width: auto;
+	}
+
+	#portfolio .col-md-8 {
+		margin-top: 75px;
 	}
 
 	#portfolio a {
@@ -1139,6 +1228,38 @@ footer .connect-us ul li a:hover {
 		width: 100%;
         float:none;
 	}
+
+	#photography .container {
+		width: auto;
+		padding: 0px;
+	}
+
+	#photography .projects-holder {
+		width: 540px;
+		height: 810px;
+		padding: 0px;
+		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+	}
+	
+	#photography .project-item {
+		width: 180px;
+		height: 135px;
+		padding: 0px;
+		margin: 0px;
+		float: left;
+	}
+
+	#photography .projects-holder-3{
+		width: 540px;
+		height: 810px;
+		padding: 0px;
+		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+	}
+
 	#testimonial {
 		width: 100%;
         float:none;
@@ -1181,7 +1302,34 @@ footer .connect-us ul li a:hover {
     .page-section p {
         font-size: 1em;
         margin: 0 0 20px;
-    }
+	}
+	
+	#photography .projects-holder {
+		width: 300px;
+		height: 450px;
+		padding: 0px;
+		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+	}
+	
+	#photography .project-item {
+		width: 100px;
+		height: 75px;
+		padding: 0px;
+		margin: 0px;
+		float: left;
+	}
+
+	#photography .projects-holder-3{
+		width: 300px;
+		height: 450px;
+		padding: 0px;
+		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+	}
+
 }
 
 @media (max-width: 385px){
