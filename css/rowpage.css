@@ -1,7 +1,3 @@
-:root {
-    --mainColor: rgb(58, 60, 187);
-  }
-
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +9,7 @@ body{
 }
 
 .title {
-    background-image: linear-gradient(to right, rgb(10, 11, 41), rgb(87, 90, 255));
+    background-image: linear-gradient(to right, var(--gradColor1), var(--gradColor2));
     height:30px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -75,6 +71,7 @@ body{
 .block img{
     width: 130px;
     height: 130px;
+    object-fit: cover;
     border-radius: 20px;
     border-style: groove;
     border-color: rgb(237, 237, 237);
