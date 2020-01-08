@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Experience</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+        <style>
+
+            :root {
+                --mainColor: rgb(0, 13, 133);
+                --gradColor1:  rgb(0, 13, 133);
+                --gradColor2: rgb(255, 102, 0);
+            }
+
+            .card {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                width: 60%;
+                border-radius: 5px;
+            }
+
+            .card:hover {
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+
+            .card h4{
+                display: block;
+                margin-top: 1.33em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                font-weight: 400;
+                text-transform: uppercase;
+                text-shadow: none;
+                padding: 0px;
+                letter-spacing: 0.5px;
+            }
+
+            .card a{
+                display: block;
+                margin-top: 1.33em;
+                margin-bottom: 1.33em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                text-decoration: none;
+                font-weight: 400;
+                text-shadow: none;
+                padding: 0px;
+                letter-spacing: 0.4px;
+                color: #33c1cf;
+            }
+
+            .card p{
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px
+            }
+
+            .card h5{
+                display: block;
+                margin-bottom: 1.33em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                text-transform: uppercase;
+                font-style: italic;
+                text-shadow: none;
+                font-weight: 400;
+                padding: 0px;
+                letter-spacing: 0.4px;
+                color: #808080 
+            }
+
+            img {
+                border-radius: 5px 5px 0 0;
+            }
+
+            .container {
+                padding: 2px 16px;
+            }
+
+            /* Responsive columns */
+            @media screen and (max-width: 600px) {
+                .card {
+                    margin-left: auto;
+                    margin-right: auto;
+                    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                    transition: 0.3s;
+                    width: 90%;
+                    border-radius: 5px;
+                }
+            }
+
+        </style>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../css/rowpage.css">
+    </head>
+
+    <body>
+        <div class="title">
+            <h1>Experience</h1>
+        </div>
+
+        <h2>Present Experience</h2>
+
+        <div class="card">
+        <div class="container">
+            <h4><b>Incoming Google STEP Intern</b><br>Google</h4>
+            <h5>June 2020 - September 2020</h5>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="container">
+            <h4><b>Case Team Lead & Activities Director</b><br>MIT Consulting Group</h4>
+            <h5>September 2018 - Present</h5>
+            <p>Consulted in three cases - all technology companies in the software and IT sectors.
+            <br>Created a decision model, as well as instigated a market study, on open and closed source business models.
+            <br>Quantified and ranked four key productivity modifiers for an open source business.
+            <br>Interviewed industry leaders and drafted a SAAS price model for a $33B company's new service.
+            <br>Developed go-to-market and pricing strategies for an adaptive educational provider.
+            </p>
+        </div>
+        </div>
+
+        <h2>Past Experience</h2>
+
+        <div class="card">
+        <div class="container">
+            <h4><b>Machine Learning Intern</b><br>Northrop Grumman Mission Systems</h4>
+            <h5>May 2019 - September 2019</h5>
+            <p>Designed and implemented key ML algorithms to intercept and analyze signals intelligence, including: a time-series anomaly detection algorithm built off a Recurrent Neural Network, a multivariate anomaly detection Generative Adversarial Network, a Deep Neural Network for signal matching, KMeans clustering for geolocation and signal features, cross-correlation algorithms between features, and other statistical forms of feature engineering.
+            <br>Developed a streaming and scaling framework for algorithm training and model deployment in a Linux cluster. Working on a CentOS development server, the entire project was built to be a scale-able prototype of a possible new suite of algorithms. I designed the entire ML/AI pipeline of the project, starting from scratch. The pipeline used technologies such as Kafka for information transfer and streaming, Docker for containerization, and Kubernetes for scaling. The pipeline leveraged Python for its deep learning libraries and Java with SparkML for its ML libraries.
+            <br>Attended two week-long codeathons in Colorado and Maryland, where the entire team worked together to rapidly prototype and implement new algorithms in response to the customers' direct feedback. Each day would conclude with a team-customer meeting to discuss the day’s work, and plan the next day's direction. I was in charge of presenting the ML-AI work to the customers, and led a trade study for ML/AI implementation.
+            </p>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="container">
+            <h4><b>Student Researcher</b><br>MIT Computational Reactor Physics Group</h4>
+            <h5>January 2019 - September 2019</h5>
+            <p>Computational Reactor Physics Group - Increasing test suite coverage of an open-source neutron transport deterministic solver.
+            <br>The overarching goal of this project is to develop and test OpenMOC, an open source nuclear reactor physics code. The purpose of this code is to compute the power distribution in a nuclear reactor of arbitrary geometry by solving the neutron transport equation through the Method of Characteristics. I was in charge of the testing suite for this program, where I created continuous integration and unit tests for all newly implemented features. This is to assure continued accuracy for the program in going forward. In particular, I developed regression tests to ensure that the current test suite covers up to 99% of the code.
+            </p>
+            <a href="https://github.com/mit-crpg/OpenMOC">GitHub</a>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="container">
+            <h4><b>Treasurer</b><br>MIT Class Council</h4>
+            <h5>October 2018 - September 2019</h5>
+            <p>Class Treasurer for the MIT Class of 2022.
+            I was in charge of drafting and maintaining a budget of $20k - including the financing for all class events. I also coordinated the acquisition and distribution of funds, as well as compensations.
+            I organized various events, including a movie theater outing for the class of 2022 and a class get-together (study break).
+            I also took a part in organizing and running various other class events, including the class formal, class carnival, and other miscellaneous events.
+            </p>
+        </div>
+        </div>
+
+        <div class="card">
+        <div class="container">
+            <h4><b>Student Researcher</b><br>MIT Space Propulsion Laboratory</h4>
+            <h5>August 2018 - January 2019</h5>
+            <p>The overarching goal of this project is to test a novel method of electric propulsion in vacuum (electrospray propulsion) and characterize its advantages and disadvantages when compared to other forms of propulsion. The electrospray emitter generates thrust by accelerating ions through a voltage gradient and carries several advantages over conventional (gas) methods of propulsion – generally including endurance and impulse. I was charged with:
+            <br>Performing environmental testing of the thrusters to simulate the vibration and depressurization which occurs at launch.
+            <br>I designed and machined adaptors for fitting a propulsion unit to a rig that simulates launch conditions.
+            <br>I was also responsible for an experiment, including the design and construction of another rig, searching for closures in the porous plastic tanks holding the propellant – closures caused by the machining process. For the closures found, I was responsible for documenting and reopening them.</p>
+        </div>
+        </div>
+
+    </body>

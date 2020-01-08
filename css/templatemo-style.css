@@ -422,6 +422,22 @@ p {
 	margin: 0px
 }
 
+#photography .project-item .thumb {
+	width: 100%;
+	height: 100%;
+}
+
+#photography .project-item .image {
+	width: 100%;
+	height: 100%;
+}
+
+#photography .project-item .center-fit {
+	width: 100%;
+	height: 100%;
+}
+
+
 #photography .section-heading {
 	text-align: left;
     padding-top: 20px;
