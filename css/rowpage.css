@@ -8,6 +8,28 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+li {
+	margin: 0;
+	padding: 1.15em 0 1.15em 50px;
+	list-style: none;
+	background-image: url("../img/tieicon.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+    font-weight:500;
+}
+
+li span{
+    font-size: .83em;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: none;
+    font-weight: 400;
+    padding: 0px;
+    letter-spacing: 0.4px;
+    color: #808080;
+}
+
 h2 {
     text-align: center;
     font-weight: 500;
