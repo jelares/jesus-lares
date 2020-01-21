@@ -125,7 +125,7 @@ h2 {
     border-width: 1px; */
 }
 
-.block .img:hover {
+.block img:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -150,8 +150,28 @@ h2 {
     border-radius: 5px;
 }
 
+.card img{
+    width: 66%;
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 1.33em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card h2{
+    text-align: left;
+    margin-top: 1.33em;
 }
 
 .card h4{
@@ -214,6 +234,16 @@ h2 {
     padding: 0px;
     letter-spacing: 0.4px;
     color: #808080;
+    font-size: 0.83em
+}
+
+.card h7{
+    margin: 0;
+    font-weight: 400;
+    text-shadow: none;
+    padding: 0px;
+    letter-spacing: 0.4px;
+    color: #33c1cf;
     font-size: 0.83em
 }
 
